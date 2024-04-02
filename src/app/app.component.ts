@@ -25,5 +25,9 @@ export class AppComponent {
     this.empleadoForm.reset();
   }
 
+  limpiarFormulario(): void {
+    this.empleadoForm.reset();
+  }
+
   
 }
